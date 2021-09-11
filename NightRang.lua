@@ -4164,7 +4164,7 @@ tdcli_function ({ID = "SearchPublicChat",username_ = text:match("^تنزيل م�
 end
 if text == 'تحديث السورس' and Dev_Bots(msg) then 
 os.execute('rm -rf NightRang.lua')
-os.execute('wget https://raw.githubusercontent.com/NightRang/NightRang/main/NightRang.lua')
+os.execute('wget https://raw.githubusercontent.com/TshakeA/NightRang/main/NightRang.lua')
 send(msg.chat_id_, msg.id_,'• تم تحديث السورس')
 dofile('NightRang.lua')  
 end
@@ -10541,7 +10541,6 @@ end,nil)
 end
 end
 end
-
 
 
 

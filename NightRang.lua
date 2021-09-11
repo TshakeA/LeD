@@ -2482,6 +2482,7 @@ send(msg.chat_id_, msg.id_,[[
 ▹ `#stast` - ܁ رتبة المستخدم
 ▹ `#edit` - ܁ عدد تعديلات 
 ▹ `#game` - ܁ نقاط
+▹ `##bio` - ܁ بايو
 ]])
 return false  
 end
@@ -8177,6 +8178,7 @@ local Text= [[
 ▹ `#stast` - ܁ رتبة المستخدم
 ▹ `#edit` - ܁ عدد تعديلات 
 ▹ `#game` - ܁ نقاط
+▹ `#bio` - ܁ بايو
 ]]
 send(msg.chat_id_, msg.id_,Text)
 return false  
@@ -10541,7 +10543,6 @@ end,nil)
 end
 end
 end
-
 
 
 

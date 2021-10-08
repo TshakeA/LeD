@@ -7681,9 +7681,9 @@ end
 if text == 'السورس' or text == 'سورس' then
 Text = [[
 
-[Brother Source](t.me/rrxrrr)
+[Paris Source](t.me/rnnni)
 
-[مطور السورس ](t.me/ppzpp)
+[مطور السورس ](t.me/iiiziiii)
 
 ]]
 send(msg.chat_id_, msg.id_,Text)
